@@ -9,14 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('>'),),
-        body: Text('식단 및 운동 루틴 입력'),
-        bottomNavigationBar: BottomAppBar(
-            ),
-          )
-        );
+    return MaterialApp();
 
   }
 }
